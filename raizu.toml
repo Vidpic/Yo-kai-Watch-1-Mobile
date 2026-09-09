@@ -1,0 +1,16 @@
+schema = 1
+
+[mod]
+name        = "Yo-kai Watch 1 Mobile — Deutsch"
+version     = "1.0.0"
+author      = "Raizuma"
+description = "Inoffizieller deutscher Fan-Patch für Yo-kai Watch 1 Smartphone."
+label       = "Yo-kai Watch 1 — Deutsch"
+min_raizu   = "0.1.0"
+
+[target]
+package       = "jp.co.level5.yws1"
+version_codes = [88]
+
+[overlay]
+release = "v1.0.0"
