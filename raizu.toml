@@ -6,7 +6,7 @@ version     = "1.0.0"
 author      = "Raizuma"
 description = "Inoffizieller deutscher Fan-Patch für Yo-kai Watch 1 Smartphone."
 label       = "Yo-kai Watch 1 — Deutsch"
-min_raizu   = "0.1.0"
+min_raizu   = "0.2.0"
 
 [target]
 package       = "jp.co.level5.yws1"
@@ -14,3 +14,8 @@ version_codes = [88]
 
 [overlay]
 release = "v1.0.0"
+
+# Umlaute auf der Namenstastatur: eine ゛-Taste auf der lateinischen Seite. Gehört zu
+# assets/data/menu/keyboard_d00.xa, das die Taste zeichnet.
+[[patches]]
+file = "patches/umlaut-keys.ips"
