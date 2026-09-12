@@ -1,11 +1,11 @@
 schema = 1
 
 [mod]
-name        = "Yo-kai Watch 1 Mobile — Deutsch"
+name        = "Yo-kai Watch 1 Smartphone"
 version     = "1.0.0"
 author      = "Raizuma"
 description = "Inoffizieller deutscher Fan-Patch für Yo-kai Watch 1 Smartphone."
-label       = "Yo-kai Watch 1 — Deutsch"
+label       = "Yo-kai Watch 1"
 min_raizu   = "0.2.0"
 
 [target]
